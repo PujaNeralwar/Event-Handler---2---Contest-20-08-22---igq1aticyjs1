@@ -4,15 +4,13 @@ const App = () => {
 
   const handleClick = (event) =>{
     console.log('Button id is:-'+event.target.id);
-    // use console.log
-
   }
 
   // do not remove the two buttons or change their id
   return (
     <div id="main">
-      <button id="button-a">Button A</button>
-      <button id="button-b">Button B</button>
+      <button id="button-a" onclick={handleClick}>Button A</button>
+      <button id="button-b" onclick={handleClick}>Button B</button>
     </div>
   )
 }
