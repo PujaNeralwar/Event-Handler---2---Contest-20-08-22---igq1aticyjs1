@@ -6,7 +6,7 @@ const App = () => {
     console.log('Button id is:-'+event.target.id);
   }
 
-  // do not remove the two buttons or change their id
+  // do not remove the two buttons or change their id 
   return (
     <div id="main">
       <button id="button-a" onclick={handleClick}>Button A</button>
